@@ -1,0 +1,26 @@
+1.created virtul environment
+ py -m venv venv
+
+ //activate venv
+  venv\Scripts\activate
+
+2. Install Django
+    py -m pip install Django
+
+3. Create project (RMS)
+    django-admin startproject RMS
+
+4. cd RMS
+
+5.Admin login
+     py manage.py createsuperuser
+
+6.To run project
+      py manage.py runserver , or
+    py manage.py runserver 8080
+
+7. Create A new app
+    py manage.py startapp appname
+
+9.//go to setting.py  inside INSTALLED_APPS
+    add "appname"
